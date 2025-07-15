@@ -2,7 +2,7 @@ import React from "react"
 import { createContext, useEffect, useState } from "react"
 import toast from "react-hot-toast"
 
-export const AuthContext = createContext()
+export const authContext = createContext()
 
 export const AuthProvider = ({ children }) => {
 
